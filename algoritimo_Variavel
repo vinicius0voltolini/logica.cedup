@@ -5,12 +5,12 @@ String cpf
 double preco
 double temperatura
 boolean casado
-data nascimento
+int nascimento
 boolean vacinado
 double preco_gasolina
 double litros_gasolina
 double preco_pao
 int total_compras
-data idade
-data data_contrato
+int idade
+int data_contrato
 int? nivel_escolaridade
