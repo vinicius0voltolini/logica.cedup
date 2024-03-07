@@ -1,4 +1,28 @@
- S = (D v A ^ C) v ~(B v C)
-3) S = ~(A v B)
-4) S = ~(A ^ B)
-5) S = C v ~B ^ (A v ~D)
+A=V, B=F, C=F e D=V:
+
+v = Ou
+^ = e
+~ = não é
+
+S = (D v A ^ C) v ~(B v C) = V
+(V ou V e F) ou ~(F ou F)
+(V e F) ou ~F
+F ou V
+V
+
+S = ~(A v B) = F
+~(V ou F)
+~V
+F
+
+S = ~(A ^ B) = V
+~(V e F)
+~F
+V
+
+S = C v ~B ^ (A v ~D) = V
+F ou ~F e (V ou ~V)
+F ou V e (V ou F)
+F ou V e V
+V e V
+V
